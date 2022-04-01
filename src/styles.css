@@ -1,6 +1,13 @@
 @font-face {
-    font-family: "Metro Sans Semi Bold";
+    font-family: "Metro Sans";
+    font-weight: bold;
     src: url("./metro-sans-semi-bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Metro Sans";
+    font-weight: bolder;
+    src: url("./metro-sans-bold.otf") format("opentype");
 }
 
 * {
@@ -11,7 +18,8 @@
 
 body {
     background-color: #291CCB;
-    font-family: "Metro Sans Semi Bold", sans-serif;
+    font-family: "Metro Sans", sans-serif;
+    font-weight: bold;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -39,7 +47,7 @@ body {
     border: solid #08006D 4px;
     height: 40px;
     width: 100%;
-    margin: 5px 0px;
+    margin: 16px 0px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -55,6 +63,7 @@ body {
   }
 
 #percentage {
+    font-weight: 900;
     position: absolute;
     width: 50px;
     left: 50%;
