@@ -1,0 +1,4 @@
+window.injectedEnv = {
+  LOADING_PERCENTAGE: '${LOADING_PERCENTAGE}',
+  LOADING_MESSAGE: '${LOADING_MESSAGE}',
+};
