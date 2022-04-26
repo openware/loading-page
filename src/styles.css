@@ -23,16 +23,11 @@ body {
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     text-align: center;
     color: #EDEDFC;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
 }
 
 .wrap {
@@ -50,6 +45,7 @@ body {
 
 .fyi {
     padding: 16px 0;
+    width: 700px;
 }
 
 #progressbar {
@@ -70,7 +66,7 @@ body {
     background: #8981EF;
     height: 32px;
     width: 30%;
-  }
+}
 
 #percentage {
     font-weight: 900;
