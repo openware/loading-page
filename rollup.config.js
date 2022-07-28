@@ -17,7 +17,7 @@ export default {
         { src: 'src/*.css', dest: 'dist/' },
         { src: 'src/*.svg', dest: 'dist/' },
         { src: 'src/*.otf', dest: 'dist/' },
-        { src: 'src/inject.template.js', dest: 'dist/' },
+        { src: 'src/inject.js.tpl', dest: 'dist/' },
       ],
     }),
   ],
