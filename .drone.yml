@@ -30,7 +30,3 @@ steps:
 trigger:
   event:
     - push
-  branch:
-    - master
-    - feature/*
-    - fix/*
